@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:resume_builder_app/Routes/App_routes.dart';
+import 'package:resume_builder_app/constant.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,6 +14,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         title: const Text("Home page"),
       ),
       floatingActionButton: FloatingActionButton(
@@ -22,7 +24,11 @@ class _HomePageState extends State<HomePage> {
             AppRoutes.buildoptionoage,
           );
         },
-        child: const Icon(Icons.add),
+        child: Icon(
+          Icons.add,
+          size: 30,
+        ),
+        backgroundColor: Colors.blue,
       ),
     );
   }
