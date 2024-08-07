@@ -13,6 +13,7 @@ class _buildoptionpageState extends State<buildoptionpage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         title: const Text("buildoption page"),
       ),
       body: Column(

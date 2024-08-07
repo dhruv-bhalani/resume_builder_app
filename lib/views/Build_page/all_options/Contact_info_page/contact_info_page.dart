@@ -155,9 +155,9 @@ class _ContactInfoPageState extends State<ContactInfoPage> {
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.blue, // text color
                           ),
-                          child: Text(
+                          child: const Text(
                             "Submit",
-                            style: const TextStyle(
+                            style: TextStyle(
                               color: Colors.black,
                             ),
                           ),
